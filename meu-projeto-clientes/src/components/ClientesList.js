@@ -47,6 +47,8 @@ function ClientesList() {
             <th>Telefone</th>
             <th>Email</th>
             <th>Endereço</th>
+            <th>X (coordenada)</th>
+            <th>Y (coordenada)</th>
             <th></th>
           </tr>
           <tr>
@@ -92,6 +94,8 @@ function ClientesList() {
               <td>{cliente.telefone}</td>
               <td>{cliente.email}</td>
               <td>{cliente.endereco}</td>
+              <td>{cliente.x}</td>
+              <td>{cliente.y}</td>
               <td>
                 <button className="btnExclusao" onClick={() => handleExcluirClick(cliente)}>
                   Excluir
